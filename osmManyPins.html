@@ -36,7 +36,7 @@
                 '<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P29-v2_0.html">国土数値情報 - 学校データ</a>',
             );
 
-            // GeoJSONレイヤーを作成
+            // GeoJSONレイヤーを作成 
             fetch('./P29-21_13.geojson') // 東京都の学校データのGeoJSONを非同期読み込み
                 .then((res) => res.json())
                 .then((json) => {
